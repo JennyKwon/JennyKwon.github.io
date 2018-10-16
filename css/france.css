@@ -23,6 +23,33 @@ body {
 .main-content {
   margin: 0px 50px;
 }
+.white_content {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8);
+  opacity:0;
+  -webkit-transition: opacity 400ms ease-in;
+  -moz-transition: opacity 400ms ease-in;
+  transition: opacity 400ms ease-in;
+  pointer-events: none;
+}
+.white_content:target {
+  opacity:1;
+  pointer-events: auto;
+}
+.white_content > div {
+position: absolute;
+top: 10%;
+left: 10%;
+width: 80%;
+height: %;
+padding: 0px;
+background-color: rgb(0, 0, 0);
+overflow: auto;	
+}
 .main-content-image {
   display: flex;
   flex-wrap: wrap;
