@@ -1,0 +1,290 @@
+@charset 'utf-8';
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif:400,700|Roboto:400,700,900');
+*, *::before, *::after{
+  box-sizing: border-box;
+}
+html{
+  font-size: 10px
+}
+body{
+  font-family: 'Noto Serif', serif;
+  font-weight: 400;
+  margin: 0;
+  background-color: rgb(255, 255, 255);
+}
+.bg-container{
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-top: calc(3158/4737 * 100%);
+  background-color: #fff;
+  /* background-image: url("../img/photo/FR/_MG_1159.jpg"); */
+  background-size: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 70% 90%;
+  transition: all 0.5s;
+  position: relative;
+}
+.container{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.rwd{
+  max-width: 100%;
+  height: auto;
+}
+.noto{
+  font-family: 'Noto sans KR', serif;
+}
+.header{
+  text-align: center;
+  color: #1c1c1c;
+  margin: 50px 0;
+}
+.main-title{
+  font-size: 1.45rem;
+  font-weight: 400;
+}
+.main-card{
+  font-size: 1.8rem;
+  display: flex;
+  color: #1c1c1c;
+  margin: 110px 0px 80px 0;
+  /* background-color: red; */
+  opacity: 0.8;
+  transition: 300ms; 
+}
+.main-card a{
+  color: #1c1c1c;
+  text-decoration: none;
+}
+.main-card-title{
+  list-style-type: none;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  width: 100px;
+}
+.main-card:hover{
+  /* transform: translate(-3px, -3px); */
+  /* box-shadow: 5px 5px 5px 0 rgba(75, 75, 75, 0.5); */
+}
+.main-card-content{
+  font-family: 'Roboto', sans-serif;
+  list-style-type: none;
+  text-transform: uppercase;
+  padding: 0 0px 0px 0px;
+}
+.main-card .hyphen::after{
+  content: " -";
+}
+.main-text1:hover{
+  transform: rotate(-355deg); 
+}
+.main-text2:hover{
+  transform: rotate(-355deg); 
+}
+.main-text3:hover{
+  transform: rotate(-355deg); 
+}
+.main-text4:hover{
+  transform: rotate(-355deg); 
+}
+.main-text5:hover{
+  transform: rotate(-355deg); 
+}
+.main-text6:hover{
+  transform: rotate(-355deg); 
+}
+.main-text1, .main-text2, .main-text3,.main-text4, .mian-text5, .main-text6{
+  margin: 15px 0;
+}
+.main-text1, .main-text2, .main-text3{
+  font-weight: 200;
+}
+.main-text4, .main-text5, .main-text6{
+  font-weight: 600;
+  letter-spacing: 4px;
+}
+.main-content{
+  text-align: center;
+  list-style-type: none;
+  text-transform: uppercase;
+  margin: 35px 0;
+}
+.main-content a{
+  font-size: 1.1rem;
+  text-decoration: none;
+  margin: 20px 0;
+  color: #1c1c1c;
+}
+.main-content a:hover{
+  border-bottom: 1px solid currentColor;
+}
+.main-content-1, .main-content-2, .main-content-3{
+  margin: 15px 0;
+}
+.contact{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 10px 0;
+}
+.contact a{
+  width: 30%;
+  max-width: 20px;
+}
+.copyright{
+  color: #1c1c1c;
+  margin: 20px 0;
+}
+/* -----------------------------Desktop Device-------------------------------- */
+@media screen and (min-width: 1000px){
+  html{
+    font-size: 10px
+  }
+  body{
+    font-family: 'Noto Serif', serif;
+    font-weight: 400;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+  }
+  .bg-container{
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-top: calc(3158/4737 * 100%);
+    background-color: rgb(255, 255, 255);
+    /* background-image: url("../img/photo/FR/_MG_1159.jpg"); */
+    background-size: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 70% 90%;
+    transition: all 0.5s;
+    position: relative;
+  }
+  .container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  .rwd{
+    max-width: 100%;
+    height: auto;
+  }
+  .noto{
+    font-family: 'Noto sans KR', serif;
+  }
+  .header{
+    text-align: center;
+    color: #1c1c1c;
+    margin: 50px 0;
+  }
+  .main-title{
+    font-size: 1.1rem;
+    font-weight: 400;
+  }
+  .main-card:hover{
+    /* transform: translate(-4px, -4px); */
+    /* box-shadow: 5px 5px 5px 0 rgba(75, 75, 75, 0.5); */
+  }
+  .main-card{
+    font-size: 2.5rem;
+    display: flex;
+    color: #1c1c1c;
+    margin: 130px 0px 100px 0;
+    /* background-color: red; */
+    opacity: 0.8; 
+    transition: 300ms;
+  }
+  .main-card a{
+    color: #1c1c1c;
+    text-decoration: none;
+  }
+  .main-text1:hover{
+    transform: rotate(-355deg); 
+  }
+  .main-text2:hover{
+    transform: rotate(-355deg); 
+  }
+  .main-text3:hover{
+    transform: rotate(-355deg); 
+  }
+  .main-text4:hover{
+    transform: rotate(-355deg); 
+  }
+  .main-text5:hover{
+    transform: rotate(-355deg); 
+  }
+  .main-text6:hover{
+    transform: rotate(-355deg); 
+  }
+  .main-card-title{
+    list-style-type: none;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+  }
+  .main-card-content{
+    font-family: 'Roboto', sans-serif;
+    list-style-type: none;
+    text-transform: uppercase;
+    padding: 0px 0px 0px 120px;
+  }
+  .main-card .hyphen::after{
+    content: " -";
+  }
+  .main-text1, .main-text2, .main-text3, .main-text4, .mian-text5, .main-text6{
+    margin: 15px 0;
+    /* text-shadow: 1px 1px 5px rgba(245, 29, 29, 0.6); */
+  }
+  .main-text1, .main-text2, .main-text3{
+    font-weight: 200;
+  }
+  .main-text4, .main-text5, .main-text6{
+    font-weight: 600;
+    letter-spacing: 4px;
+  }
+  .main-content{
+    text-align: center;
+    list-style-type: none;
+    text-transform: uppercase;
+    margin: 30px 0;
+  }
+  .main-content a{
+    font-size: 1.1rem;
+    text-decoration: none;
+    margin: 20px 0;
+    color: #1c1c1c;
+  }
+      .main-content a:hover{
+        border-bottom: 1px solid currentColor;
+      }
+  .main-content-1, .main-content-2, .main-content-3{
+    margin: 15px 0;
+  }
+  .contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px 0;
+  }
+  .contact a{
+    width: 30%;
+    max-width: 20px;
+  }
+  .copyright{
+    color: #fff;
+    margin: 15px -45px 0px 0;
+    position: absolute;
+    right: 0;
+    width: 250px;
+    top: 50%;
+    background-color: #1c1c1c;
+    transform: rotate(-90deg);
+  }
+}

@@ -1,0 +1,35 @@
+@charset 'utf-8';
+*, *::before, *::after{
+  box-sizing: border-box;
+}
+.rwd{
+  max-width: 100%;
+  height: auto;
+}
+.main-content{
+  align-content: center;
+  display: flex;
+}
+.main-content-image img {
+  -webkit-transform:scale(1);
+  -moz-transform:scale(1);
+  -ms-transform:scale(1); 
+  -o-transform:scale(1);  
+  transform:scale(1);
+  -webkit-transition:.2s;
+  -moz-transition:.2s;
+  -ms-transition:.2s;
+  -o-transition:.2s;
+  transition:.2s;
+  /* display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; */
+  align-content: center;
+}
+.france1:hover, .france2:hover, .france3:hover, .france4:hover, .france5:hover, .france6:hover {
+  -webkit-transform:scale(1.2);
+  -moz-transform:scale(1.2);
+  -ms-transform:scale(1.2);   
+  -o-transform:scale(1.2);
+  transform:scale(1.2);
+}
